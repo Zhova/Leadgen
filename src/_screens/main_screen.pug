@@ -1,3 +1,10 @@
 mixin main_screen 
-	+b.main-wrap.wrap
-		+b.main.container
+	+b.main.wrap
+		+b.main-content.container
+			+b.A(href="#").video-btn
+				img(src="./img/video_main-play.png", alt="alt")
+			+e.text-block 
+				+e.H1.title ЗАРАБАТЫВАЙ ВМЕСТЕ С 1XBET.AGENT
+				+e.P.sub-title Cтань агентом, принимай деньги, пополняй счет и делай выводы игрокам или создай свою агентскую сеть и получай комиссию
+				+b.A(href="#").btn_defaul.btn_agent СТАТЬ АГЕНТОМ
+
