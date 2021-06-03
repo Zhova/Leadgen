@@ -1,0 +1,35 @@
+header
+    display: flex
+    justify-content: center
+    position: absolute
+    height: 100px
+    position: absolute
+    left: 0
+    top: 0
+    color: #fff
+    z-index: 2
+
+.header
+    &-content
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .logo-lang
+            display: flex
+            align-items: center
+            &__logo
+                margin-right: 50px
+        .nav-menu
+            &__list
+                display: flex
+            &__item
+                margin-right: 50px
+                transition: .3s
+                &:hover
+                    transform: scale(1.05)
+                    transition: .3s
+                a
+                    font-weight: normal
+
+                &:last-child
+                    margin-right: 0
