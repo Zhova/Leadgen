@@ -1,0 +1,19 @@
+mixin header 
+    +b.HEADER.wrap 
+        +b.header-content.container
+            +b.logo-lang 
+                +e.A(href='#').logo
+                    img(src="../img/logo.png", alt="logo")
+                +e.lang RU
+            +b.NAV.nav-menu
+                +e.UL.list
+                    +e.LI.item.text_xs
+                        a(href="#") Преимущества
+                    +e.LI.item.text_xs
+                        a(href="#") Безопасность
+                    +e.LI.item.text_xs
+                        a(href="#") Возможности
+                    +e.LI.item.text_xs
+                        a(href="#") Контакты
+            +b.A(href="#").btn_defaul.btn_agent СТАТЬ АГЕНТОМ
+            
