@@ -1,3 +1,5 @@
 $(document).ready(function () {
-  console.log("document ready");
+  $(".cookie__btn").click(() => {
+    $(".cookie").remove();
+  });
 });

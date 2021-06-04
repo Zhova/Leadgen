@@ -1,9 +1,10 @@
 .main
-    height: 100vh
+    min-height: 100vh
     background: url('../img/mainBG.png')
     background-size: cover
     color: #fff
     padding-top: 210px
+    padding-bottom: 200px
     position: relative
     .video-btn
         position: absolute
@@ -15,6 +16,9 @@
         img
             width: 100%
     &-content
+        &__text-block
+            max-width: 700px
+            position: relative
         &__title
             font-weight: 800
             font-size: 80px
@@ -24,6 +28,27 @@
             margin-bottom: 45px
             max-width: 360px
             line-height: 29px
-        &__text-block
-            max-width: 700px
-            position: relative
+
+    .skills-block
+        display: flex
+        position: absolute
+        bottom: -125px
+        &__item
+            margin-right: 30px
+            &:last-child
+                margin-right: 0
+        &__title
+            color: #000
+            span
+                font-weight: bold
+
+@media screen and (max-width: 1500px)
+    .main
+        padding: 90px 0
+
+        &-content
+            &__text-block
+                max-width: 560px
+            &__title
+                font-size: 60px
+                line-height: 76px
