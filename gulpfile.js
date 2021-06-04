@@ -20,6 +20,7 @@ const cssFiles = [
   "./src/css/main_screen.sass",
   "./src/css/agent-benefit_screen.sass",
   "./src/css/important_screen.sass",
+  "./src/css/necessity_screen.sass",
 ];
 
 const jsFiles = ["./src/js/script_1.js", "./src/js/script_2.js"];
