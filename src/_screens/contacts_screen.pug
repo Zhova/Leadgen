@@ -1,0 +1,28 @@
+mixin contacts_screen 
+    +b.contacts.wrap
+        +b.contacts-content.container
+            +b.contacts-info 
+                +e.P.title КОНТАКТЫ
+                +e.A(href="#").site 1xbet.com
+                +e.A(href="#").mail support@1xbetagent.shop
+            +b.contacts-form-wrap
+                +e.P.title Оставить заявку
+                +b.FORM.contacts-form
+                    +e.input-wrap
+                        +e.LABEL.label.label-name Имя *
+                        +e.INPUT(type="text" placeholder="Иван Иванов").input.input-name
+                    +e.input-wrap
+                        +e.LABEL.label.label-name Emeil
+                        +e.INPUT(type="email" placeholder="email@example.com").input.input-name
+                    +e.input-wrap
+                        +e.LABEL.label.label-name Телефон *
+                        +e.INPUT(type="phone" placeholder="+123 456 78 90").input.input-name
+                    +e.input-wrap
+                        +e.LABEL.label.label-name Страна *
+                        +e.INPUT(type="text" placeholder="Найдите страну").input.input-name
+                    +e.input-wrap
+                        +e.LABEL.label.label-name Город *
+                        +e.INPUT(type="text" placeholder="Найдите город").input.input-name
+                    +e.input-wrap
+                        +e.LABEL.label.label-name Адрес размещения терминала *
+                        +e.INPUT(type="text" placeholder="Введите адрес").input.input-name

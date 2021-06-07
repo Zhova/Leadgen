@@ -1,0 +1,80 @@
+.contacts
+    background: url('../img/contactsBG.png')
+    padding: 200px 0
+    &-content
+        display: flex
+        align-items: center
+        justify-content: center
+    &-info
+        display: flex
+        flex-direction: column
+        color: #fff
+        margin-right: 50px
+        &__title
+            font-weight: bold
+            font-size: 80px
+            line-height: 104px
+            letter-spacing: 0.03em
+            color: #2C384C
+            margin-bottom: 50px
+        a
+            padding-left: 100px
+            height: 68px
+            display: flex
+            align-items: center
+            position: relative
+            font-weight: bold
+            font-size: 36px
+            line-height: 47px
+            &::before
+                content: ""
+                position: absolute
+                left: 0
+                top: 0
+                width: 82px
+                height: 68px
+
+        &__site
+            margin-bottom: 55px
+            &::before
+                background: url('../img/contacts-site-icon.png')
+        &__mail
+            &::before
+                background: url('../img/contacts-mail-icon.png')
+
+    &-form
+        input
+            border: 1px solid #9AAFC7
+            border-radius: 3px
+            height: 48px
+            min-width: 320px
+            padding: 8px 20px
+            margin-bottom: 25px
+            &::placeholder
+                font-weight: normal
+                font-size: 16px
+                line-height: 160%
+                color: #C3D2E3
+        label
+            font-weight: normal
+            font-size: 12px
+            line-height: 130%
+            color: #224E7B
+            background: #fff
+            padding: 0 8px
+            position: absolute
+            left: 12px
+            top: -5px
+        &__input-wrap
+            position: relative
+
+        &-wrap
+            background: #fff
+            border-radius: 8px
+            padding: 70px
+            &__title
+                font-weight: bold
+                font-size: 50px
+                line-height: 130%
+                color: #0E0E0E
+                margin-bottom: 20px

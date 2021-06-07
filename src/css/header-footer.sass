@@ -1,0 +1,76 @@
+header,footer
+    display: flex
+    justify-content: center
+    position: absolute
+    height: 100px
+    position: absolute
+    left: 0
+    top: 0
+    color: #fff
+    z-index: 2
+
+footer
+    position: static
+    background: linear-gradient(254.84deg, #1C2B44 0%, #0A121F 100%)
+    border-top: 1px solid rgba(255, 255, 255, 0.1)
+    height: auto
+    padding-top: 60px
+    padding-bottom: 50px
+    .footer
+        &-content
+            margin-bottom: 70px
+        &-copyright
+            font-weight: normal
+            font-size: 12px
+            line-height: 130%
+            color: #526477
+
+.header,.footer
+    &-content
+        display: flex
+        align-items: center
+        justify-content: space-between
+        max-width: 1780px
+        .logo-lang
+            display: flex
+            align-items: center
+            &__logo
+                margin-right: 50px
+        .nav-menu
+            &__list
+                display: flex
+            &__item
+                margin-right: 50px
+                transition: .3s
+                &:hover
+                    transform: scale(1.05)
+                    transition: .3s
+                a
+                    font-weight: normal
+
+                &:last-child
+                    margin-right: 0
+
+.cookie
+    position: fixed
+    right: 70px
+    bottom: 70px
+    background: #fff
+    padding: 50px
+    width: 330px
+    height: 246px
+    &__text
+        color: #526477
+        font-weight: normal
+        font-size: 14px
+        line-height: 18px
+        margin-bottom: 16px
+    &__btn
+        border: 1px solid #459CED
+        border-radius: 3px
+        padding: 16px 26px 15px
+        color: #459CED
+        text-transform: uppercase
+        font-weight: bold
+        font-size: 16px
+        display: inline-block
